@@ -1,0 +1,191 @@
+*{
+  box-sizing: border-box;
+}
+
+
+body{
+  font-family: Lato,sans-serif;
+  margin: 0;
+  padding: 0;
+
+}
+
+a{
+  text-decoration: none;
+  
+}
+li{
+  list-style: none;
+}
+
+
+.header{
+ padding: 95px 100px;
+ background-color:  #ED4C5C;
+ color: #FFFFFF;
+}
+
+
+.hd-title{
+  max-width: 403px;
+  font-weight: 600;
+font-size: 36px;
+line-height: 43px;
+}
+
+
+.icons-space{
+  margin-right: 15px;
+}
+
+.container{
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 15;
+}
+
+
+.header__inner{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+
+.hd-text{
+  max-width: 445px;
+  margin: 40px 0;
+font-size: 14px;
+line-height: 20px;
+}
+
+
+.contact__inner{
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.main-title{
+  font-size: 36px;
+line-height: 43px;
+
+color: #000000;
+}
+
+.main-text{
+  max-width: 420px;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: justify;
+  color: #000000; 
+  margin: 50px 0;
+}
+
+
+
+.contact{
+padding: 120px;
+
+}
+
+.input-1{
+justify-content: space-between;
+display: flex;
+}
+
+.form-input{
+  max-width:540px;
+  width: 100%; 
+}
+
+.small{
+  width: 45%;
+}
+
+input{
+  border: 1px solid #333333;
+box-sizing: border-box;
+border-radius: 6px;
+padding: 15px;
+}
+
+.select-1{
+  color: gray;
+  width: 100%;
+margin: 15px 0;
+padding: 15px;
+}
+
+.big{
+  width: 100%;
+  margin-top: 15px;
+}
+
+
+.submit{
+ font-size: 14px;
+line-height: 17px;
+text-transform: uppercase;
+background: #ED4C5C;
+border: 1.5px solid #ED4C5C;
+box-sizing: border-box;
+border-radius: 6px;
+color:  #FFFFFF;;
+}
+
+.footer{
+  background: #FAFAFA;
+}
+
+.f-title{
+   font-size: 18px;
+line-height: 22px;
+text-align:left;
+color: #101010;
+
+}
+
+.f-text{
+  max-width: 200px;
+}
+
+.footer__inner{
+  display: flex;
+  justify-content: space-between;
+  padding: 95px 0;
+  
+}
+
+.li-f{
+  font-size: 15px;
+line-height: 19px;
+text-transform: capitalize;
+color: #000000;
+display: flex;
+ flex-direction: column;
+padding: 3px;
+
+}
+
+.li-f-1{
+  margin-right: 15px;
+  justify-content: space-between;
+  display: inline-block;
+}
+
+.footer-space{
+margin-top:20px ;
+}
+
+.footer-p{
+  padding: 10px 0;
+}
+
+.after-f{
+  padding: 60px 0;
+  font-size: 12px;
+  line-height: 14px;
+  color: #101010;
+}
